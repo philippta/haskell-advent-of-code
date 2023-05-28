@@ -95,8 +95,4 @@ main :: IO ()
 main = do
   contents <- readFile "day2.txt"
   print $ aoc2part1 contents
-
-main2 :: IO ()
-main2 = do
-  contents <- readFile "day2.txt"
   print $ aoc2part2 contents
